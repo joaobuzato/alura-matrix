@@ -81,7 +81,7 @@ export default function ChatPage() {
                     }}
                 >
 
-                    <MessageList mensagens={listaMensagens}/> 
+                    <MessageList mensagens={listaMensagens} /> 
 
 
                     <Box
