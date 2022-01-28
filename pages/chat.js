@@ -134,7 +134,7 @@ export default function ChatPage() {
                         />
                         <ButtonSendSticker 
                         onStickerClick={(sticker) => {
-                            handleNovaMensagem(`:sticker: ${sticker}`)
+                            handleNewMessage(`:sticker: ${sticker}`)
                         }}/>
                     </Box>
                 </Box>
