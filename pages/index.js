@@ -73,7 +73,7 @@ export default function PaginaInicial() {
                         onSubmit={function(event){
                             event.preventDefault()
                             if (username.length >=2 ){
-                                router.push('/chat');
+                                router.push(`/chat?username=${username}`);
                             } else ( console.log('nome pequeno'))
                             
                         }}
